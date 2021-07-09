@@ -53,6 +53,40 @@
                 </p>
             </strong>
         </div>
+        <!-- Slideshow section added -->
+ <div id="Slideshow">
+    <div id="Slideshow_Background"> 
+        <div id="Slideshow_Container">
+            <!-- Slide 1 of 3 -->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="./images/personal_picture.jpg" alt="Picture of me">
+                <div class="text">I'm available to assist you on your project!</div>
+            </div>
+            <!-- Slide 2 of 3 -->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="./images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
+                <div class="text">I am a front-end software developer,<br> trained in:<br>HTML, CSS, JavaScript.</div>
+            </div>
+                     
+            <!-- Slide 3 of 3 -->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="./images/Microsoft-Visual-Studio-logo1.png" alt="Visual Studio logo"> 
+                <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div> 
+            </div>
+            <!-- Previous and next buttons -->
+            <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br> <!-- Adds a space between the slideshow images and the dots -->
+
+        <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+</div>
 
         <!--About section-->
         <div class="Row" id="About">
@@ -111,40 +145,7 @@
                 </form>
             </div>
         </div>
- <!-- Slideshow section added -->
- <div id="Slideshow">
-    <div id="Slideshow_Background"> 
-        <div id="Slideshow_Container">
-            <!-- Slide 1 of 3 -->
-            <div class="mySlides fade">
-                <img class="Slideshow_Images" src="./images/personal_picture.jpg" alt="Picture of me">
-                <div class="text">I'm available to assist you on your project!</div>
-            </div>
-            <!-- Slide 2 of 3 -->
-            <div class="mySlides fade">
-                <img class="Slideshow_Images" src="./images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
-                <div class="text">I am a front-end software developer,<br> trained in:<br>HTML, CSS, JavaScript.</div>
-            </div>
-                     
-            <!-- Slide 3 of 3 -->
-            <div class="mySlides fade">
-                <img class="Slideshow_Images" src="./images/Microsoft-Visual-Studio-logo1.png" alt="Visual Studio logo"> 
-                <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div> 
-            </div>
-            <!-- Previous and next buttons -->
-            <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="Next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br> <!-- Adds a space between the slideshow images and the dots -->
-
-        <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
-        <div style="text-align: center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-    </div>
-</div>
+ 
         <!--Footer section-->
         <footer>
             <p>
