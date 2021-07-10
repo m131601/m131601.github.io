@@ -526,6 +526,7 @@ button:hover, .form-container .btn:hover {
     border-color: black;
 }
 /***** End of Contact Form Styling *****/
+
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
     background-color: #555;
