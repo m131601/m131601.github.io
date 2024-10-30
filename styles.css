@@ -433,7 +433,9 @@ footer {
     align-items: center;
     gap: 10px;
 }
-
+.logo-container img {
+    height: 50px;
+}
 .logo {
     height: 80px;
 }
@@ -467,7 +469,11 @@ footer {
 .nav-list.active {
     display: flex;
 }
-
+/* Navigation List */
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 .nav-list a, .contact-btn {
     color: white;
     text-decoration: none;
@@ -483,4 +489,26 @@ footer {
 
 .contact-btn:hover {
     background-color: #cc5200;
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: #003366;
+        position: absolute;
+        top: 60px;
+        right: 5%;
+        width: 90%;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
