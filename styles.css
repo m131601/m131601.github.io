@@ -496,3 +496,21 @@ header {
         display: flex;
     }
 }
+/* Desktop Navigation */
+.desktop-nav {
+    display: flex;
+}
+
+.desktop-nav .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.desktop-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
