@@ -24,7 +24,14 @@ body {
     padding-bottom: 0px; /* Ensure content doesn't overlap footer */
 }
 
+body > section {
+    max-width: 100%;
+    overflow: hidden;
+}
 
+section img{
+    max-width: 100%;
+}
 
 body {
     font-family: Arial, sans-serif;
