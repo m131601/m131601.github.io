@@ -512,3 +512,17 @@ footer {
         display: block;
     }
 }
+/* Desktop Navigation */
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
