@@ -434,50 +434,22 @@ footer {
 .logo {
     height: 80px;
 }
-/* Header Styling */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 5%;
-    background-color: #003366;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.logo-container img {
-    height: 50px;
-}
-
-.hamburger {
-    display: none; /* Hidden by default */
-    background: none;
-    border: none;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
-}
-
+/* Default: Desktop Navigation */
 .nav-list {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-.nav-list a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background 0.3s;
+/* Hide Hamburger and Mobile Menu by Default */
+.hamburger {
+    display: none;
 }
 
-/* Mobile Styles */
 @media (max-width: 768px) {
+    /* Mobile: Show Hamburger, Hide Desktop Nav */
     .hamburger {
-        display: block; /* Hamburger visible only on mobile */
+        display: block;
     }
 
     .nav-list {
@@ -488,29 +460,11 @@ header {
         top: 60px;
         right: 5%;
         width: 90%;
-        border-radius: 10px;
         padding: 15px;
+        border-radius: 10px;
     }
 
     .nav-list.active {
         display: flex;
     }
-}
-/* Desktop Navigation */
-.desktop-nav {
-    display: flex;
-}
-
-.desktop-nav .nav-list {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.desktop-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background 0.3s;
 }
