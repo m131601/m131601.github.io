@@ -1,0 +1,62 @@
+
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 50%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+     /*================================================================
+        @MEDIA QUERIES
+        ============================================================*/
+        @media all and (max-width:640px) and (min-width:361px) {
+            .head-main {
+                font-size: 24px;
+
+            }
+        }            
+        
+        @media (min-width: 768px) {
+            .container {
+                width: 750px;
+
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px; 
+        }
+    }
