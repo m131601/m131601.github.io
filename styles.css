@@ -682,5 +682,23 @@ footer {
     background-color: #218838; /* Darker green on hover */
     transform: scale(1.05); /* Slightly increase size on hover */
 }
+.modern-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+    margin: 20px 0; /* Space above and below the list */
+}
+
+.modern-list li {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #dee2e6; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding for better spacing */
+    margin: 10px 0; /* Space between list items */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+}
+
+.modern-list li:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
 
 
