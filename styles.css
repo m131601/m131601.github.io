@@ -700,5 +700,18 @@ footer {
 .modern-list li:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
 }
+/* Media Queries for Tablets and Mobile */
+@media (max-width: 768px) {
+    .modern-list li {
+        padding: 12px; /* Slightly reduced padding for smaller screens */
+        font-size: 14px; /* Adjust font size */
+    }
+}
 
+@media (max-width: 480px) {
+    .modern-list li {
+        padding: 10px; /* Further reduced padding for mobile */
+        font-size: 12px; /* Smaller font size */
+    }
+}
 
