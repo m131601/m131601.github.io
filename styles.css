@@ -665,18 +665,22 @@ footer {
 }
 
 .modern-button {
-    background-color: #007BFF; /* Button background color */
-    color: white; /* Text color */
-    padding: 10px 20px; /* Button padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allows padding and margins */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding for a better size */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
     font-size: 16px; /* Font size */
-    transition: background-color 0.3s ease; /* Smooth hover transition */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }
 
 .modern-button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
 }
 
 
