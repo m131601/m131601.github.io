@@ -714,4 +714,31 @@ footer {
         font-size: 12px; /* Smaller font size */
     }
 }
+/* Base styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Footer adjustments */
+footer {
+    padding: 20px 0; /* Adjust as needed */
+    margin-bottom: 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-form {
+        width: 60%; /* Adjust width as needed for large screens */
+        margin: auto;
+    }
+}
 
