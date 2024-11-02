@@ -809,3 +809,15 @@ footer {
         justify-content: center;
     }
 }
+.hero-video {
+    position: relative;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden;
+}
+
+.hero-video video {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover entire area */
+}
