@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Homes | P&C Custom Homes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo3.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="logo.png" alt="Company Logo" class="logo">
+            </a>
+            <h1 class="site-title">P&C Custom Homes</h1>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section" style="background-image: url('custom-home-hero.jpg');">
+        <div class="hero-content">
+            <h1>Custom Homes</h1>
+            <p>Building unique homes tailored to your dreams and lifestyle.</p>
+        </div>
+    </section>
+
+    <section class="project-details">
+        <h2>Our Custom Homes Projects</h2><br>
+        <p>Explore a range of beautiful, unique custom homes designed and built to meet our clients' visions. Each project combines top-quality materials, expert craftsmanship, and attention to detail.</p>
+<br>
+        <div class="project-cards">
+            <div class="project-card">
+                <img src="download (3).webp" alt="Luxury Retreat">
+                <div class="card-content">
+                    <h3>Luxury Retreat</h3>
+                    <p>A high-end custom home with state-of-the-art amenities and a contemporary design.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="download (4).webp" alt="Modern Family Home">
+                <div class="card-content">
+                    <h3>Modern Family Home</h3>
+                    <p>Spacious and functional, this custom home is designed with families in mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <a href="index.html" class="logo">
+                <img src="logo7.png" alt="Company Logo" class="footer-logo">
+            </a> <br>
+            <div class="company-info">
+                <p>Contact Information:</p>
+                <p>2450 Windsor Springs Dr, Augusta, GA 30906</p>
+                <p>4786 Sugarloaf Pkwy #105, Lawrenceville, GA 30044</p>
+                <p>Phone: <a href="tel:4702764844">470-276-4844</a></p><br>                
+            </div>
+            <!-- Example using FontAwesome icons -->
+    <div class="social-links">
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    
+    <!-- Add FontAwesome in the <head> section -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+        </div>
+        <p class="copyright">&copy; 2024 P&C Custom Homes. All Rights Reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+        // Select the hamburger button and navigation list
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+    
+        // Add click event listener to toggle the menu
+        hamburger.addEventListener('click', () => {
+            navList.classList.toggle('open');
+        });
+    </script>
+    
+    </body>
+    </html>
+    
