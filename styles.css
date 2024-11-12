@@ -289,7 +289,6 @@ header {
     background-image: url('kitchen-1940174_1280.jpg'); /* Replace with the correct image path */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent tiling */
     display: flex;
     align-items: center;
     justify-content: center;
