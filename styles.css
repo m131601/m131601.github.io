@@ -286,6 +286,7 @@ header {
 
 #hero {
     height: 100vh; /* Full-screen height */
+
     background-image: url('kitchen-1940174_1280.jpg'); /* Replace with the correct image path */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the image */
@@ -295,6 +296,7 @@ header {
     justify-content: center;
     color: white;
     position: relative; /* For overlay */
+
 }
 
 /* Optional: Dark overlay */
@@ -895,4 +897,5 @@ footer {
         max-width: 90%;
     }
 }
+
 
