@@ -898,5 +898,22 @@ footer {
     }
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.button-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+@media (min-width: 1200px) {
+    .button-container {
+        gap: 20px;
+    }
+}
 
