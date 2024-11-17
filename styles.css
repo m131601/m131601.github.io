@@ -80,8 +80,48 @@ section {
 
 
 /* Main content fills available space */
-#contact {
+
+#container {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Optional background */
+    box-sizing: border-box;
+}
+
+/* Wrapper Layout */
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center content */
+}
+
+/* Contact Form Styling */
+.contact-container {
     flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 /* Footer styling */
@@ -697,7 +737,7 @@ footer {
 footer {
     background-color: #003366;
     color: #fff;
-    padding: 2rem 1rem;
+    padding: 0; /* Remove any additional padding */
     text-align: center;
     position: relative;
     width: 100%;
