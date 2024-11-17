@@ -748,6 +748,8 @@ footer {
     text-align: center;
     position: relative;
     width: 100%;
+        margin-top: auto; /* Push the footer to the bottom */
+
 }
 
 /* Flex layout for footer content */
