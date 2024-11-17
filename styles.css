@@ -10,6 +10,13 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+/* Main content wrapper to push the footer to the bottom */
+.content-wrapper {
+    flex: 1; /* Allows the main content to take up all available space */
+    display: flex;
+    flex-direction: column;
+}
+
 /* Main content fills available space */
 main {
     flex: 1;
