@@ -72,31 +72,53 @@
 </div>
 
 
-<footer>
-    <div class="footer-content">
-        <a href="index.html" class="logo">
-            <img src="logo7.png" alt="Company Logo" class="footer-logo">
-        </a> <br>  
-        <div class="company-info">
-            <p>Contact Information:</p>
-             
-            <p>2220 Jonesboro Road <br>Ste. 107, <br>Fairburn, GA 30213</p>
-            <p>Phone: <a href="tel:4702764844">470-276-4844</a></p><br>                
+ <footer>
+        <div class="footer-content">
+            <div class="left-section">
+                <div class="quick-links">
+                    <!-- Add quick links here -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+            </div>
+            
+            <div class="center-section">
+                <a href="index.html" class="logo">
+                    <img src="logo7.png" alt="Company Logo" class="footer-logo">
+                </a>
+            </div>
+    
+            <div class="right-section">
+                <div class="company-info">
+                    <p>Contact Information:</p>
+                    <p>2220 Jonesboro Road</p>
+                    <p>Ste. 107,</p>
+                    <p>Fairburn, GA 30213</p>
+                    <p>Phone: <a href="tel:4702764844">470-276-4844</a></p>
+                </div>
+            </div>
         </div>
-        <!-- Example using FontAwesome icons -->
-<div class="social-links">
-<a href="#"><i class="fab fa-linkedin"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-</div>
-
-<!-- Add FontAwesome in the <head> section -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-    </div>
-    <p class="copyright">&copy; 2024 P&C Custom Homes. All Rights Reserved.</p>
-</footer>
-<script src="index.js"></script>
-
-</body>
-
-</html>
+        <p class="copyright">&copy; 2024 P&C Custom Homes. All Rights Reserved.</p>
+    </footer>
+    
+    <!-- Add FontAwesome in the <head> section -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ 
+    <script src="index.js"></script>
+    <script>
+        // Select the hamburger button and navigation list
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+    
+        // Add click event listener to toggle the menu
+        hamburger.addEventListener('click', () => {
+            navList.classList.toggle('open');
+        });
+    </script>
+    
+    </body>
+    </html>
+    
